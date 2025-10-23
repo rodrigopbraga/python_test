@@ -1,8 +1,8 @@
 def in_autotests_we_trust(a, b):
     if a == b:
-        print('PASS')
+        print('Passou no teste')
     else:
-        print('FAIL')
+        print('Falhou no teste')
 
 in_autotests_we_trust(10, '10')
 
